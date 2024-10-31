@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assents/css/madicenter.css"/>
+    <title>MediCenter</title>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".MenuMobile").addEventListener("click", function(){
+                if (document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="./assents/img/logo-medicenter.png"/></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="MenuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>TOP NOTCH EXPERIENCE</h1>
+                <h2>MEDICENTER IS A RESPONSIVE TEMPLETE PERFECT FOR ALL SCREEN SIZES</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Case</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctors Timetable</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+                        <div class="banner_hours">Primeiro horario        7hrs</div>
+                        <div class="banner_hours">Segundo Horario         8hrs</div>
+                        <div class="banner_hours">Terceiro Horario        9hrs</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                        <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12</div>
+                                <div class="news_comments">Comentario</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="./assents/img/banner.jfif" alt="">
+                            </div>
+                            <div class="news_title">
+                                lorem ipsum amout valor
+                            </div>
+                            <div class="news_resume">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi fugit necessitatibus ill
+                            </div>
+                        </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">Comentario</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="./assents/img/banner.jfif" alt="">
+                                </div>
+                                <div class="news_title">
+                                    lorem ipsum amout valor
+                                </div>
+                                <div class="news_resume">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi fugit necessitatibus ill
+                                </div>
+                            </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">Comentario</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="./assents/img/banner.jfif" alt="">
+                                    </div>
+                                    <div class="news_title">
+                                        lorem ipsum amout valor
+                                    </div>
+                                    <div class="news_resume">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi fugit necessitatibus ill
+                                    </div>
+                                </a>
+                                </article>
+
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">12 DEC 12</div>
+                                            <div class="news_comments">Comentario</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="./assents/img/banner.jfif" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            lorem ipsum amout valor
+                                        </div>
+                                        <div class="news_resume">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi fugit necessitatibus ill
+                                        </div>
+                                    </a>
+                                    </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departaments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        ...
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make an Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        ...
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm1">
+                    <a href="">
+                    Health Insureance
+                        <div class="fm_desc">Texto qualquer</div>
+                    </a>
+                </div>
+                <div class="fm2">
+                    <a href="">
+                    Medical Records
+                    <div class="fm_desc">Texto qualquer</div>
+                    </a>
+                </div>
+                <div class="fm3">
+                    <a href="">
+                    Online Bills
+                    <div class="fm_desc">Texto qualquer</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">MediCenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            ...
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Post</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            ...
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Tweets</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                Coyrigth - Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
